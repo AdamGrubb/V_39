@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Övningar V39/1.0.0": {
+        "runtime": {
+          "Övningar V39.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Övningar V39/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,15 @@
+C:\Users\Haren\Documents\Program\Övningar V39\obj\Debug\net6.0\Övningar V39.csproj.AssemblyReference.cache
+C:\Users\Haren\Documents\Program\Övningar V39\obj\Debug\net6.0\Övningar V39.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Haren\Documents\Program\Övningar V39\obj\Debug\net6.0\Övningar V39.AssemblyInfoInputs.cache
+C:\Users\Haren\Documents\Program\Övningar V39\obj\Debug\net6.0\Övningar V39.AssemblyInfo.cs
+C:\Users\Haren\Documents\Program\Övningar V39\obj\Debug\net6.0\Övningar V39.csproj.CoreCompileInputs.cache
+C:\Users\Haren\Documents\Program\Övningar V39\bin\Debug\net6.0\Övningar V39.exe
+C:\Users\Haren\Documents\Program\Övningar V39\bin\Debug\net6.0\Övningar V39.deps.json
+C:\Users\Haren\Documents\Program\Övningar V39\bin\Debug\net6.0\Övningar V39.runtimeconfig.json
+C:\Users\Haren\Documents\Program\Övningar V39\bin\Debug\net6.0\Övningar V39.dll
+C:\Users\Haren\Documents\Program\Övningar V39\bin\Debug\net6.0\Övningar V39.pdb
+C:\Users\Haren\Documents\Program\Övningar V39\obj\Debug\net6.0\Övningar V39.dll
+C:\Users\Haren\Documents\Program\Övningar V39\obj\Debug\net6.0\refint\Övningar V39.dll
+C:\Users\Haren\Documents\Program\Övningar V39\obj\Debug\net6.0\Övningar V39.pdb
+C:\Users\Haren\Documents\Program\Övningar V39\obj\Debug\net6.0\Övningar V39.genruntimeconfig.cache
+C:\Users\Haren\Documents\Program\Övningar V39\obj\Debug\net6.0\ref\Övningar V39.dll
