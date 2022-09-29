@@ -30,8 +30,9 @@ using Utilitys;
 ////C - sharp skolan Övning 5:
 
 Histrogram Test = new Histrogram();
-//Test.AddText("Charles dickens.txt"); // Man kan lägga in vilken .txt fil som helst i mappen \bin\Debug\net6.0\ om man vill testa. 
-//Test.WordsAndValue();
+Test.AddText("renulft.txt"); // Man kan lägga in vilken .txt fil som helst i mappen \bin\Debug\net6.0\ om man vill testa. 
+Test.WordsAndValue();
+//Test.ConvertToSortedList();
 
 
 

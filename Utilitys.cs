@@ -33,9 +33,9 @@ namespace Utilitys
         public static string FormateraTextFörWordCount(this string Oformaterad)
         {
             Oformaterad = Oformaterad.Trim().ToLower();
-            string string2 = Oformaterad[0].ToString().ToUpper();
-            string Formated = string2 + Oformaterad.Substring(1);
-            return Formated;
+            //string string2 = Oformaterad[0].ToString().ToUpper();
+            //string Formated = string2 + Oformaterad.Substring(1);
+            return Oformaterad;
 
         }
         public static string TrimOfCharacters(this string UnwantedCharacters)

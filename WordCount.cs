@@ -33,9 +33,17 @@ namespace Övningar_V39
             for (int i = 0; i < TempLista.Length; i++)
             {
                 TempLista[i] = TempLista[i].TrimOfCharacters();
-                if (TempLista[i] == string.Empty || TempLista[i]==null) continue; //Ibland verkar den ta in ett värde som "?" som trimmas bort i TrimOfCharacters. Så när den skickar vidare null eller empty. Detta kraschar .FormateraTextFörWordCount i och med att den bland annat har indexering i sig. 
+              
 
-                TempLista[i] = TempLista[i].FormateraTextFörWordCount();
+                try
+                {
+                    TempLista[i] = TempLista[i].FormateraTextFörWordCount();
+                }
+                catch (Exception e)
+                {
+                    File.AppendAllText("LoggbokFel.txt", $"Det är detta tecken som blir knasigt: <{TempLista[i]}>");
+                }
+
             }
             for (int i = 0; i < TempLista.Length; i++)
             {
@@ -49,7 +57,7 @@ namespace Övningar_V39
 
             foreach (KeyValuePair<string, Int32> word in HistrogramListan.OrderByDescending(key => key.Value))
             {
-                Console.WriteLine("Key: {0}.     Value: {1}", word.Key, word.Value);
+                if (word.Value>200) Console.WriteLine("Key: {0}.     Value: {1}", word.Key, word.Value);
             }
         }
         public void ConvertToSortedList() //Konverterad till en SortedList så att man istället kan kolla på orden i bokstavsordning, lite kul att leta skumma ord.
