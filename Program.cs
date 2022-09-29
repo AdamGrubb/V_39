@@ -16,7 +16,9 @@ using Utilitys;
 ////C-sharp skolan Övning 3:
 
 //CardDeck MyDeck = new CardDeck("spader", "hjärter", "klöver", "ruter");
-//MyDeck.DrawCardFromList();
+//MyDeck.DrawCardAPair();
+
+
 
 
 
@@ -28,8 +30,8 @@ using Utilitys;
 ////C - sharp skolan Övning 5:
 
 Histrogram Test = new Histrogram();
-Test.AddText("renulft.txt");
-Test.WordsAndValue();
+//Test.AddText("Charles dickens.txt"); // Man kan lägga in vilken .txt fil som helst i mappen \bin\Debug\net6.0\ om man vill testa. 
+//Test.WordsAndValue();
 
 
 
